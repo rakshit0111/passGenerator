@@ -53,7 +53,7 @@ function App() {
               
               type="range"
               min={6}
-              max={100}
+              max={26}
               value={length}
               className='cursor-pointer duration-200'
               onChange={(e)=>{setLength(e.target.value)}}
